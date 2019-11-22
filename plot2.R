@@ -14,5 +14,5 @@ plot(subpower$Time,as.numeric(as.character(subpower$Global_active_power)),type="
 
 # Create PNG file
 
-dev.copy(png,file="plot2.png")
+dev.copy(png,height=480,width=480,file="plot2.png")
 dev.off()

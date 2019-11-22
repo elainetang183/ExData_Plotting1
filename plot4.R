@@ -24,5 +24,5 @@ with(subpower,{
 
 # Create PNG file
 
-dev.copy(png,file="plot4.png")
+dev.copy(png,height=480,width=480,file="plot4.png")
 dev.off()

@@ -8,5 +8,5 @@ hist(as.numeric(as.character(subpower$Global_active_power)),col = "red",main = "
 
 # Create PNG file
 
-dev.copy(png,file="plot1.png")
+dev.copy(png,height=480,width=480,file="plot1.png")
 dev.off()
